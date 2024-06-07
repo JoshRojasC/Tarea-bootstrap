@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Aqui va el css de bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Aqui va el css personalidazo  -->
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<header>
+    <h1 class="titulo">Mi Pagina en bootstrap</h1>
+</header>
+
+<body>
+
+    <div class="jumbotron">
+        <h3 class="display-3">Comandos Flex</h3>
+        <p>Lista con los comandos de Flex CSS y una breve explicacion:</p>
+
+        <ul>
+            <li>
+                <pre><code>display: flex;</code></pre>: Esta propiedad se aplica al contenedor principal para activar el
+                modelo de caja
+                flexible (Flexbox) en sus elementos hijos directos. Esto permite que los elementos hijos se coloquen y
+                se ajusten dinámicamente dentro del contenedor de acuerdo con las reglas de Flexbox.
+            </li>
+            <li>
+                <pre><code>flex-direction: row | row-reverse | column | column-reverse;</code></pre>: Esta propiedad
+                establece la dirección
+                principal en la que los elementos hijos se colocan dentro del contenedor flexible. Por ejemplo, row los
+                coloca en una fila de izquierda a derecha, column los coloca en una columna de arriba hacia abajo, y las
+                variantes reverse invierten la dirección.
+            </li>
+            <li>
+                <pre><code>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;</code></pre>
+                : Esta
+                propiedad controla la alineación de los elementos a lo largo del eje principal del contenedor flexible.
+                Permite distribuir el espacio sobrante entre los elementos de diferentes maneras, como centrarlos,
+                alinearlos al inicio o al final, o distribuir el espacio uniformemente entre ellos.
+            </li>
+            <li>
+                <pre><code>align-items: flex-start | flex-end | center | baseline | stretch;</code></pre>c: Esta
+                propiedad controla la alineación
+                de los elementos a lo largo del eje transversal del contenedor flexible. Se utiliza para alinear los
+                elementos verticalmente dentro del contenedor. Por ejemplo, flex-start alinea los elementos en la parte
+                superior, center los centra verticalmente, stretch los estira para que ocupen todo el espacio vertical,
+                etc.
+            </li>
+            <li>
+                <pre><code> flex-wrap: nowrap | wrap | wrap-reverse;</code></pre>: Esta propiedad controla si los
+                elementos hijos del contenedor
+                flexible deben envolverse en múltiples líneas o no cuando el espacio disponible no es suficiente para
+                colocar todos los elementos en una sola fila o columna.
+            </li>
+            <li>
+                <pre><code>align-content: flex-start | flex-end | center | space-between | space-around | stretch;: Esta propiedad
+                se utiliza para controlar cómo se distribuye el espacio adicional a lo largo del eje transversal cuando
+                hay múltiples líneas de elementos dentro del contenedor flexible. Funciona de manera similar a
+                justify-content, pero en lugar de aplicarse a elementos individuales, se aplica al espacio entre las
+                líneas de elementos.</li>
+        </ul>
+    </div>
+
+    <div class="jumbotron">
+        <h3 class="display-3">Comandos Grid</h3>
+        <h4>comandos de Grid CSS y una breve explicacion:</h4>
+
+        <ul>
+            <li> 
+                <pre><code>display: grid;</code></pre>: Esta propiedad se aplica al contenedor principal para activar
+                el modelo de diseño de
+                cuadrícula en sus elementos hijos directos.
+            </li>
+            <li>
+                <pre><code>grid-template-columns y grid-template-rows</code></pre>: Estas propiedades se utilizan para
+                definir el tamaño y el
+                número de columnas y filas en la cuadrícula respectivamente. Puedes especificar tamaños fijos, tamaños
+                fraccionarios (fr), tamaños automáticos (auto), etc.
+            </li>
+            <li>
+                <pre><code>grid-gap o gap</code></pre>: Estas propiedades se utilizan para especificar el espacio entre
+                las filas y columnas de
+                la cuadrícula. grid-gap define espacios entre filas y columnas por separado, mientras que gap es una
+                abreviatura que establece ambos al mismo valor.
+            </li>
+            <li>
+                <pre><code>grid-template-areas</code></pre>: Esta propiedad permite definir áreas en la cuadrícula y
+                asignar nombres a esas
+                áreas. Luego, puedes colocar elementos hijos dentro de estas áreas utilizando la propiedad grid-area en
+                los elementos hijos.
+            </li>
+            <li>
+                <pre><code>justify-items y align-items</code></pre>: Estas propiedades se utilizan para alinear los
+                elementos hijos dentro de
+                las celdas de la cuadrícula a lo largo del eje principal (justify-items) y el eje secundario
+                (align-items) respectivamente.
+            </li>
+            <li>
+                <pre><code>justify-content y align-content</code></pre>: Estas propiedades se utilizan para alinear y
+                distribuir el contenido de
+                la cuadrícula a lo largo del eje principal (justify-content) y el eje secundario (align-content)
+                respectivamente./li>
+            <li>
+                <pre><code>grid-auto-columns y grid-auto-rows</code></pre>: Estas propiedades se utilizan para
+                especificar el tamaño de las
+                columnas y filas automáticas, que se aplican a las celdas que no están explícitamente definidas en la
+                cuadrícula.
+            </li>
+            <li>
+                <pre><code>grid-auto-flow</code></pre>: Esta propiedad especifica cómo se deben colocar los elementos
+                que no tienen una posición
+                explícita definida dentro de la cuadrícula. Puedes establecerlo en row, column o dense.
+            </li>
+        </ul>
+    </div>
+
+    <p class="mt-4">
+        <a href="Assets/Propiedades CSS Flex y Grid.pdf" class="btn btn-info" role="button">enlace con los comandos</a>
+    </p>
+
+
+    </div>
+</body>
+<!-- Aqui va el Js de bootstrap  -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+</html>
